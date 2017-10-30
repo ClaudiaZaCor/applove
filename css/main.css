@@ -1,0 +1,141 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.71430;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container:after {
+  clear: both;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mt-0 {
+  margin-top: 0px;
+}
+.m-0 {
+  margin: 0px;
+}
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+a:hover {
+  color: #E95853;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+  position: fixed;
+  /*outline: 1px solid blue;*/
+  display: block;
+  text-transform: uppercase;
+  /*box-sizing: border-box;*/
+  height: 70px;
+  /*padding-top: 30px;*/
+  width: 100%;
+  margin: 0;
+  top: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.space1 {
+  background: white;
+  /*line-height: 70px;*/
+  overflow: auto;
+  /*display: inline-block;*/
+  /*outline: 1px solid red;*/
+  height: inherit;
+}
+.space {
+  float: left;
+  font-weight: bold;
+  width: 150px;
+  /*outline: 1px solid green;*/
+  text-align: center;
+  height: 70px;
+}
+a:hover {
+  background: black;
+  color: white;
+}
+.text1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url(../assets/images/bg-home.jpg);
+  color: white;
+  height: 500px;
+  margin-top: 70px;
+  display: block;
+}
+.section3 {
+  box-sizing: border-box;
+  display: inline-block;
+  /*padding: 2px;*/
+  width: 33%;
+}
+.color {
+  background-color: #E95853;
+  text-align: center;
+  margin: 0 auto;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.text {
+  text-align: center;
+}
+figure img {
+  width: 500px;
+  height: 600px;
+}
+.position-images img{
+  width: 200px;
+  height: 200px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 50px;
+  /*outline: 1px solid blue;*/
+}
+.position-images {
+  /*outline: 1px solid green;*/
+}
+footer {
+  background-color: #303030;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+}
